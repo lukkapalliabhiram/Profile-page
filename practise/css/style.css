@@ -1,0 +1,56 @@
+/*h2{
+    color: yellow;
+    background: blue;
+    text-align: center;
+    
+}
+#fart{
+    color: balck;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    background: red;
+    border: 5px solid blue;
+    border-radius: 20px;
+    width=400pc;
+    
+}
+#mind{
+    border: 10px solid yellow;
+    border-radius: 50px;
+    width : 300px;
+    height: 300px;
+    margin:0 auto;
+    padding: 30px;
+    background: pink;
+}
+img#kup{
+    width: 100%;
+   padding: 30px;
+}
+
+#picture-css{
+    width: 900px;
+    height: 300px;
+    background-image: url(../images/IMG_20200923_110024.JPG);
+    margin: 0 auto;
+    object-fit: fill;
+    
+}*/
+
+#hovers {
+    width: 500px;
+    height: 500px;
+    border: 10px solid blue;
+    background-image: url(../images/IMG20200919170044.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers:hover {
+    
+    background-color: pink;
+    color: palegoldenrod;
+}

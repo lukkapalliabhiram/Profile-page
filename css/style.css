@@ -1,0 +1,60 @@
+
+/*
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 90px
+}
+*/
+/*body{
+    
+    background: black;
+}
+
+p1{
+    color: blue;
+    
+}
+h1{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 90px;
+}
+div p2,p3 {
+    background: white;
+    font-size: 30px;
+    
+}
+div a{
+    background: blue;
+    font-size: 40px;
+}
+#first_para{
+    color: yellow;
+     background: red;
+    font-size: 50px;
+}
+.first_para{
+    color: yellow;
+     background: red;
+    font-size: 50px;
+}
+*/
+
+
+div{
+    
+    border: 5px solid black;
+    background: blue;
+    color:yellow;
+    width: 700px;
+    float:right;
+    border-radius: 30px;
+    margin-right: 300px;
+    padding: 30px;
+}
+
+div ul{
+    list-style-type: decimal;
+}
+
