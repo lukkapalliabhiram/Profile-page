@@ -1,60 +1,175 @@
-
-/*
-p{
-    color: red;
-    font-weight: bold;
-    font-size: 90px
-}
-*/
-/*body{
+body{
+  
+    margin: 0;
     
-    background: black;
 }
 
-p1{
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: gold;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.header {
+    background: pink;
+    padding: 45px0 20px 40px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.menu{
+    background: green;
+    padding: 6px 0 6px 40px;
+    
+}
+
+
+.menu a{
+    color: black;
+    font-size: 20px;
+    font-family: "Arial Narrow","Myriad Pro";
+    text-decoration: none;
+}
+
+
+.menu a:hover {
+    color: yellow;
+    
+    
+    
+}
+
+
+aside {
+    float: left;
+    widows: 120px;
+    padding: 0 15px 0 30px;
+}
+
+
+h1{
+    margin: opx;
+    color: blue;
+    font-size: 25px;
+    font-family: "cursive";
+    font-weight: normal;
+}
+
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px; 40px; 30px; 0;
+    color: black;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+
+.main a:hover {
+    color:black;
+    
+}
+
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: silver;
+    font-family: "Lucida Sans Unicode";
+    color: black;
+    font-size: 11px;
+    text-decoration: right;
+}
+
+
+footer a{
+    text-decoration: none;
     color: blue;
     
-}
-h1{
-    color: chocolate;
-    font-weight: bold;
-    font-size: 90px;
-}
-div p2,p3 {
-    background: white;
-    font-size: 30px;
     
 }
-div a{
-    background: blue;
+
+.seperator{
+    color:black;
+    font-size: 11px;
+}
+
+.image1{
+    
+    width: 100%;
+}
+
+.home-image{
+    
+}
+
+
+/* about page     */
+#about_page .home-image .ima{
+    
+    width: 60%;
+   float: left;
+    widows: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#about_page #profile-info p{
+  
+    margin: 5px;
+    width: 80%;
+}
+
+#about_page .description{
+    clear: both;
+}
+
+
+/*contact*************/
+
+#contact #form{
+    width: 300px;
+    
+    padding: 10px 11px 10px 10px;
+    margin: 0 auto;
+    padding-right: 20px;
+    float: inherit;
+     box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+.page-heading{
+    text-align:center;
     font-size: 40px;
-}
-#first_para{
-    color: yellow;
-     background: red;
-    font-size: 50px;
-}
-.first_para{
-    color: yellow;
-     background: red;
-    font-size: 50px;
-}
-*/
-
-
-div{
-    
-    border: 5px solid black;
-    background: blue;
-    color:yellow;
-    width: 700px;
-    float:right;
-    border-radius: 30px;
-    margin-right: 300px;
-    padding: 30px;
+    color: black;
+    font-style: bold;
+    font-family: monospace;
 }
 
-div ul{
-    list-style-type: decimal;
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: silver;
 }
 
+#contact #form #message{
+    border-radius: 5px;
+    height: 150px;
+    background: silver;
+    width: 100%;
+}
+
+#contact #form #submit{
+    background: green;
+    height: 30px;
+}
